@@ -38,7 +38,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

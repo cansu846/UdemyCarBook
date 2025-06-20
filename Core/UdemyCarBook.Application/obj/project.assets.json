@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "UdemyCarBook.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UdemyCarBook.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyCarBook.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UdemyCarBook.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../UdemyCarBook.Domain/UdemyCarBook.Domain.csproj",
+      "msbuildProject": "../../UdemyCarBook.Domain/UdemyCarBook.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "UdemyCarBook.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Cansu\\.nuget\\packages\\": {},
@@ -47,7 +66,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj": {
+              "projectPath": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\UdemyCarBook.Domain\\UdemyCarBook.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
