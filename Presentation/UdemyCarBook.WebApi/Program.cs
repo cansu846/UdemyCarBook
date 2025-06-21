@@ -1,8 +1,15 @@
 using UdemyCarBook.Application.Feature.CQRS.Handlers.AboutHandlers;
 using UdemyCarBook.Application.Feature.CQRS.Handlers.BannerHandlers;
+using UdemyCarBook.Application.Feature.CQRS.Handlers.BrandHandler;
+using UdemyCarBook.Application.Feature.CQRS.Handlers.CarHandler;
+using UdemyCarBook.Application.Feature.CQRS.Handlers.CarHandlers;
+using UdemyCarBook.Application.Feature.CQRS.Handlers.CategoryForBlogHandlers;
+using UdemyCarBook.Application.Feature.CQRS.Handlers.ContactHandlers;
 using UdemyCarBook.Application.Interfaces;
+using UdemyCarBook.Application.Interfaces.CarInterfaces;
 using UdemyCarBook.Persistence.Context;
 using UdemyCarBook.Persistence.Repositories;
+using UdemyCarBook.Persistence.Repositories.CarRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,12 +24,39 @@ builder.Services.AddScoped<RemoveAboutCommandHandler>();
 builder.Services.AddScoped<GetAboutQueryHandler>();
 builder.Services.AddScoped<GetAboutByIdQueryHandler>();
 
+builder.Services.AddScoped<CreateBrandCommandHandler>();
+builder.Services.AddScoped<UpdateBrandCommandHandler>();
+builder.Services.AddScoped<RemoveBrandCommandHandler>();
+builder.Services.AddScoped<GetBrandQueryHandler>();
+builder.Services.AddScoped<GetBrandByIdQueryHandler>();
+
 builder.Services.AddScoped<CreateBannerCommandHandler>();
 builder.Services.AddScoped<UpdateBannerCommandHandler>();
 builder.Services.AddScoped<RemoveBannerCommandHandler>();
 builder.Services.AddScoped<GetBannerQueryHandler>();
 builder.Services.AddScoped<GetBannerByIdQueryHandler>();
 
+builder.Services.AddScoped<CreateCarCommandHandler>();
+builder.Services.AddScoped<UpdateCarCommandHandler>();
+builder.Services.AddScoped<RemoveCarCommandHandler>();
+builder.Services.AddScoped<GetCarQueryHandler>();
+builder.Services.AddScoped<GetCarByIdQueryHandler>();
+builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
+
+builder.Services.AddScoped<ICarRepository,CarRepository>();
+
+
+builder.Services.AddScoped<CreateCategoryForBlogCommandHandler>();
+builder.Services.AddScoped<UpdateCategoryForBlogCommandHandler>();
+builder.Services.AddScoped<RemoveCategoryForBlogCommandHandler>();
+builder.Services.AddScoped<GetCategoryForBlogQueryHandler>();
+builder.Services.AddScoped<GetCategoryForBlogByIdQueryHandler>();
+
+builder.Services.AddScoped<CreateContactCommandHandler>();
+builder.Services.AddScoped<UpdateContactCommandHandler>();
+builder.Services.AddScoped<RemoveContactCommandHandler>();
+builder.Services.AddScoped<GetContactQueryHandler>();
+builder.Services.AddScoped<GetContactByIdQueryHandler>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

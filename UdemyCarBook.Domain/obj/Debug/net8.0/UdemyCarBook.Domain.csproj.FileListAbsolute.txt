@@ -1,4 +1,5 @@
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.deps.json
+C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.runtimeconfig.json
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.pdb
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -8,6 +9,5 @@ C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\Ud
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\refint\UdemyCarBook.Domain.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.pdb
-C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\ref\UdemyCarBook.Domain.dll
-C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\bin\Debug\net8.0\UdemyCarBook.Domain.runtimeconfig.json
 C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\UdemyCarBook.Domain.genruntimeconfig.cache
+C:\Users\Cansu\source\repos\UdemyCarBook\UdemyCarBook.Domain\obj\Debug\net8.0\ref\UdemyCarBook.Domain.dll
