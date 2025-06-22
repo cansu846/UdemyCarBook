@@ -1122,6 +1122,7 @@
         "dependencies": {
           "MediatR": "12.5.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "UdemyCarBook.Domain": "1.0.0"
         },
         "compile": {

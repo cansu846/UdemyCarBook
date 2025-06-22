@@ -14,6 +14,11 @@ namespace UdemyCarBook.Application.Feature.MediatR.Handlers.FeatureHandlers
     {
         private readonly IRepository<UdemyCarBook.Domain.Entities.Feature> _repository;
 
+        public CreateFeatureCommandHandler(IRepository<Domain.Entities.Feature> repository)
+        {
+            _repository = repository;
+        }
+
         public async Task Handle(CreateFeatureCommand request, CancellationToken cancellationToken)
         {
             await _repository.CreateAsync(new Domain.Entities.Feature

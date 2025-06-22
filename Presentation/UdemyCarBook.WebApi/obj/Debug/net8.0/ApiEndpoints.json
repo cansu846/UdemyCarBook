@@ -442,5 +442,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyFeatureBook.WebApi.Controllers.FeatureController",
+    "Method": "GetAllFeature",
+    "RelativePath": "api/Feature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyFeatureBook.WebApi.Controllers.FeatureController",
+    "Method": "RemoveFeature",
+    "RelativePath": "api/Feature",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyFeatureBook.WebApi.Controllers.FeatureController",
+    "Method": "CreateFeature",
+    "RelativePath": "api/Feature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createFeatureCommand",
+        "Type": "UdemyCarBook.Application.Feature.MediatR.Commands.FeatureCommands.CreateFeatureCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyFeatureBook.WebApi.Controllers.FeatureController",
+    "Method": "UpdateFeature",
+    "RelativePath": "api/Feature",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFeatureCommand",
+        "Type": "UdemyCarBook.Application.Feature.MediatR.Commands.FeatureCommands.UpdateFeatureCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyFeatureBook.WebApi.Controllers.FeatureController",
+    "Method": "GetFeatureById",
+    "RelativePath": "api/Feature/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

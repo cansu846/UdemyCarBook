@@ -14,6 +14,11 @@ namespace UdemyCarBook.Application.Feature.MediatR.Handlers.FeatureHandlers
     {
         private readonly IRepository<UdemyCarBook.Domain.Entities.Feature> _repository;
 
+        public RemoveFeatureCommandHandler(IRepository<Domain.Entities.Feature> repository)
+        {
+            _repository = repository;
+        }
+
         public async Task Handle(RemoveFeatureCommand request, CancellationToken cancellationToken)
         {
             var value = await _repository.GetByIdAsync(request.Id); 

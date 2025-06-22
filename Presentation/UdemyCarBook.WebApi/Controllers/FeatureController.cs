@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Formats.Asn1;
-using UdemyCarBook.Application.Feature.CQRS.Commands.FeatureCommands;
-using UdemyCarBook.Application.Feature.CQRS.Handlers.FeatureHandlers;
-using UdemyCarBook.Application.Feature.CQRS.Queries.FeatureQueries;
-using UdemyCarBook.Application.Feature.MediatR.Handlers.FeatureHandlers;
+using UdemyCarBook.Application.Feature.MediatR.Commands.FeatureCommands;
+using UdemyCarBook.Application.Feature.MediatR.Queries.FeatureQueries;
+
 
 namespace UdemyFeatureBook.WebApi.Controllers
 {
@@ -13,57 +13,45 @@ namespace UdemyFeatureBook.WebApi.Controllers
     [ApiController]
     public class FeatureController : ControllerBase
     {
-        private readonly CreateFeatureCommandHandler _createFeatureCommandHandler;
-        private readonly UpdateFeatureCommandHandler _updateFeatureCommandHandler;
-        private readonly RemoveFeatureCommandHandler _removeFeatureCommandHandler;
-        private readonly GetFeatureByIdQueryHandler _getFeatureByIdQueryHandler;
-        private readonly GetFeatureQueryHandler _getFeatureQueryHandler;
+      private readonly IMediator _mediator;
 
-        public FeatureController(CreateFeatureCommandHandler createFeatureCommandHandler, 
-            UpdateFeatureCommandHandler updateFeatureCommandHandler, 
-            RemoveFeatureCommandHandler removeFeatureCommandHandler, 
-            GetFeatureByIdQueryHandler getFeatureByIdQueryHandler, 
-            GetFeatureQueryHandler getFeatureQueryHandler)
+        public FeatureController(IMediator mediator)
         {
-            _createFeatureCommandHandler = createFeatureCommandHandler;
-            _updateFeatureCommandHandler = updateFeatureCommandHandler;
-            _removeFeatureCommandHandler = removeFeatureCommandHandler;
-            _getFeatureByIdQueryHandler = getFeatureByIdQueryHandler;
-            _getFeatureQueryHandler = getFeatureQueryHandler;
+            _mediator = mediator;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllFeature()
         {
-            var values = await _getFeatureQueryHandler.Handle();
+            var values = await _mediator.Send(new GetFeatureQuery());
             return Ok(values);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetFeatureById(int id)
         {
-            var value = await _getFeatureByIdQueryHandler.Handle( new GetFeatureByIdQuery(id));
+            var value = await _mediator.Send( new GetFeatureByIdQuery(id));
             return Ok(value);
         }
 
         [HttpDelete]  
-        public async Task<IActionResult> Remove(int id)
+        public async Task<IActionResult> RemoveFeature(int id)
         {
-            await _removeFeatureCommandHandler.Handle(new RemoveFeatureCommand(id));
+            await _mediator.Send(new RemoveFeatureCommand(id));
             return Ok("Feature silindi...");    
         }
 
         [HttpPost]  
         public async Task<IActionResult> CreateFeature(CreateFeatureCommand createFeatureCommand)
         {
-            await _createFeatureCommandHandler.Handle(createFeatureCommand);
+            await _mediator.Send(createFeatureCommand);
             return Ok("Feature eklendi...");
         }
 
         [HttpPut]  
         public async Task<IActionResult> UpdateFeature(UpdateFeatureCommand updateFeatureCommand)
         {
-            await _updateFeatureCommandHandler.Handle(updateFeatureCommand);
+            await _mediator.Send(updateFeatureCommand);
             return Ok("Feature güncellendi...");
         }
 
