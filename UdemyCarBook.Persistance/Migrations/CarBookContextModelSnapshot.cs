@@ -300,12 +300,7 @@ namespace UdemyCarBook.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SocialMediaId")
-                        .HasColumnType("int");
-
                     b.HasKey("FooterId");
-
-                    b.HasIndex("SocialMediaId");
 
                     b.ToTable("Footers");
                 });
@@ -481,17 +476,6 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.Navigation("Car");
 
                     b.Navigation("Pricing");
-                });
-
-            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Footer", b =>
-                {
-                    b.HasOne("UdemyCarBook.Domain.Entities.SocialMedia", "SocialMedia")
-                        .WithMany()
-                        .HasForeignKey("SocialMediaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("SocialMedia");
                 });
 
             modelBuilder.Entity("UdemyCarBook.Domain.Entities.Brand", b =>
