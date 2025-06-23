@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/_UILayout/Index.cshtml";
+}
+
+<section class="ftco-section contact-section">
+    <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+            @await Component.InvokeAsync("ContactAddressComponentPartial")
+            @await Component.InvokeAsync("ContactFormComponentPartial")
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div id="map" class="bg-white"></div>
+            </div>
+        </div>
+    </div>
+</section>
