@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J5yYOyYjWu65VV4y9HwPL3BuACn2f4T8ztEqUDOO0pc=",
+  "Hash": "xxYdK5hOtUGlfjyuHX2R5j6GNo2Y81QLUkThCEaHoCU=",
   "Source": "UdemyCarBook.WebUI",
   "BasePath": "_content/UdemyCarBook.WebUI",
   "Mode": "Default",
@@ -1690,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i7poeytvp5",
-      "Integrity": "YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs=",
+      "Fingerprint": "1dpqn29ne0",
+      "Integrity": "G+7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\carbook-master\\index.html"
@@ -11646,6 +11646,51 @@
       ]
     },
     {
+      "Route": "carbook-master/index.1dpqn29ne0.html",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 07:05:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1dpqn29ne0"
+        },
+        {
+          "Name": "label",
+          "Value": "carbook-master/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE="
+        }
+      ]
+    },
+    {
       "Route": "carbook-master/index.html",
       "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\index.html",
       "Selectors": [],
@@ -11656,7 +11701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27229"
+          "Value": "33158"
         },
         {
           "Name": "Content-Type",
@@ -11664,11 +11709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs=\""
+          "Value": "\"G+7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 13:28:32 GMT"
+          "Value": "Tue, 24 Jun 2025 07:05:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11678,52 +11723,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs="
-        }
-      ]
-    },
-    {
-      "Route": "carbook-master/index.i7poeytvp5.html",
-      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "27229"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 13:28:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i7poeytvp5"
-        },
-        {
-          "Name": "label",
-          "Value": "carbook-master/index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs="
+          "Value": "sha256-G+7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE="
         }
       ]
     },
@@ -25936,7 +25936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 13:39:33 GMT"
+          "Value": "Mon, 07 Jul 2025 19:04:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25973,7 +25973,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 13:39:33 GMT"
+          "Value": "Mon, 07 Jul 2025 19:04:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26018,7 +26018,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 13:39:33 GMT"
+          "Value": "Mon, 07 Jul 2025 19:04:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26063,7 +26063,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Jun 2025 13:39:33 GMT"
+          "Value": "Mon, 07 Jul 2025 19:04:38 GMT"
         },
         {
           "Name": "Cache-Control",

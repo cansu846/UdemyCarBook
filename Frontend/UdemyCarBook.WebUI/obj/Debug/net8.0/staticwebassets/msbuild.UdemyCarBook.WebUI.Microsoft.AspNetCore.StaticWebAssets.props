@@ -1398,8 +1398,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i7poeytvp5</Fingerprint>
-      <Integrity>YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs=</Integrity>
+      <Fingerprint>1dpqn29ne0</Fingerprint>
+      <Integrity>G+7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\index.html'))</OriginalItemSpec>

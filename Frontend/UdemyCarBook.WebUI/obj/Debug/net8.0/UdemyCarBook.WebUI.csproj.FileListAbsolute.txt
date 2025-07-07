@@ -202,6 +202,8 @@ C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\n
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\UdemyCarBook.Dtos.dll
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\UdemyCarBook.Dtos.pdb
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\net8.0\UdemyCarBook.WebUI.csproj.AssemblyReference.cache
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\net8.0\UdemyCarBook.WebUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\net8.0\UdemyCarBook.WebUI.AssemblyInfoInputs.cache
@@ -229,5 +231,3 @@ C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\n
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\net8.0\UdemyCarBook.WebUI.pdb
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\net8.0\UdemyCarBook.WebUI.genruntimeconfig.cache
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\obj\Debug\net8.0\ref\UdemyCarBook.WebUI.dll
-C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\UdemyCarBook.Dtos.dll
-C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.WebUI\bin\Debug\net8.0\UdemyCarBook.Dtos.pdb

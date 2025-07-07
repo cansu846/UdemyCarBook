@@ -1,0 +1,21 @@
+﻿
+<div class="col-md-8 ftco-animate">
+    @await Component.InvokeAsync("BlogDetailMainBlogInfoComponentPartial", new {blogId = ViewBag.blogId})
+
+    @await Component.InvokeAsync("BlogDetailMainTagCloudComponentPartial", new { blogId = ViewBag.blogId })
+
+    @await Component.InvokeAsync("BlogDetailMainAuthorComponentPartial", new { blogId = ViewBag.blogId })
+
+   
+
+    <div class="pt-5 mt-5">
+        @await Component.InvokeAsync("BlogDetailMainCommentComponentPartial")
+
+        <!-- END comment-list -->
+        @await Component.InvokeAsync("BlogDetailMainLeaveCommentComponentPartial")
+
+    </div>
+
+
+
+</div>

@@ -924,17 +924,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kn9qjymgsa"},{"Name":"integrity","Value":"sha256-YM5GtY8HF9k96rA0qdoY0KApYsRyY292iXDm64Be0Mk="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/carbook-master/images/person_4.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25350"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YM5GtY8HF9k96rA0qdoY0KApYsRyY292iXDm64Be0Mk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:28:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/carbook-master/index.1dpqn29ne0.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1dpqn29ne0"},{"Name":"integrity","Value":"sha256-G\u002B7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/carbook-master/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33158"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022G\u002B7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 07:05:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/carbook-master/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"27229"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:28:32 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/carbook-master/index.i7poeytvp5.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i7poeytvp5"},{"Name":"integrity","Value":"sha256-YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/carbook-master/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27229"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022YkSS5NihtkjwH8SiiKjoERwLp2C1bf3Pqut5iXXGDrs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:28:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G\u002B7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"33158"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022G\u002B7cih4ETu7LM8bKPX5TgYeHXbr35GBKwZbAEtzyTaE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 07:05:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/carbook-master/js/aos.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\js\aos.js'))</AssetFile>
@@ -3016,13 +3016,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UdemyCarBook.WebUI.o4uzhlnpb2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:39:33 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 19:04:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/UdemyCarBook.WebUI.o4uzhlnpb2.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UdemyCarBook.WebUI.o4uzhlnpb2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o4uzhlnpb2"},{"Name":"integrity","Value":"sha256-uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/UdemyCarBook.WebUI.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:39:33 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 19:04:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

@@ -6,11 +6,15 @@ using UdemyCarBook.Application.Feature.CQRS.Handlers.CarHandlers;
 using UdemyCarBook.Application.Feature.CQRS.Handlers.CategoryForBlogHandlers;
 using UdemyCarBook.Application.Feature.CQRS.Handlers.ContactHandlers;
 using UdemyCarBook.Application.Interfaces;
+using UdemyCarBook.Application.Interfaces.BlogInterfaces;
 using UdemyCarBook.Application.Interfaces.CarInterfaces;
+using UdemyCarBook.Application.Interfaces.TagCloudInterfaces;
 using UdemyCarBook.Application.Services;
 using UdemyCarBook.Persistence.Context;
 using UdemyCarBook.Persistence.Repositories;
+using UdemyCarBook.Persistence.Repositories.BlogRepositories;
 using UdemyCarBook.Persistence.Repositories.CarRepositories;
+using UdemyCarBook.Persistence.Repositories.TagCloudRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +49,9 @@ builder.Services.AddScoped<GetCarByIdQueryHandler>();
 builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
 
 builder.Services.AddScoped<ICarRepository,CarRepository>();
+builder.Services.AddScoped<IBlogRepository,BlogRepository>();
+builder.Services.AddScoped<ICarPricingRepository,CarPricingRepository>();
+builder.Services.AddScoped<ITagCloudRepository,TagCloudRepository>();
 
 
 builder.Services.AddScoped<CreateCategoryForBlogCommandHandler>();
