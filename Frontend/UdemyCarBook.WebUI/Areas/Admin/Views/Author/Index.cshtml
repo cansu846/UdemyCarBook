@@ -1,0 +1,65 @@
+﻿@using UdemyCarBook.Dtos.AuthorDtos
+@model List<ResultAuthorDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Car Authors</h4>
+                        <p class="card-subtitle mb-4">
+
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Image Url</th>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Update</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+
+                                        <tr>
+                                            <th>@count</th>
+                                            <td><img src="@item.imageUrl" style={"width=150px ; height=150px"} /></td>
+                                            <td>@item.name</td>
+                                            <td>@item.description</td>
+                                            <td><a asp-area="Admin" asp-controller="Author" asp-action="UpdateAuthor" asp-route-id="@item.authorId" class="btn btn-success">Update</a></td>
+                                            <td><a href="/Admin/Author/DeleteAuthor/@item.authorId" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                    }
+
+                                    <tr>
+
+                                </tbody>
+                            </table>
+                            <a asp-area="Admin" asp-controller="Author" asp-action="CreateAuthor" class="btn btn-primary">Create Author</a>
+                        </div>
+
+                    </div>
+                    <!-- end card-body-->
+                </div>
+                <!-- end card -->
+
+            </div>
+            <!-- end col -->
+
+        </div>
+
+    </div>
+</div>
+
