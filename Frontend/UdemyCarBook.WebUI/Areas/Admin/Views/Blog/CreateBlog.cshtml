@@ -1,0 +1,54 @@
+﻿@using UdemyCarBook.Dtos.BlogDtos
+@model CreateBlogDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4 class="card-title">Entry New Blog</h4>
+                        <p class="card-subtitle mb-4">
+                            Please fill in all fields appropriately.
+                        </p>
+
+                        <form method="post" asp-area="Admin" asp-controller="Blog" asp-action="CreateBlog">
+                            <div class="form-group">
+                                <label asp-for="Title">Title</label>
+                                <input type="text" class="form-control" asp-for="Title">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description">Description</label>
+                                <input type="text" class="form-control" asp-for="Description">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AuthorId">Author Id</label>
+                                <select asp-for="AuthorId" asp-items="@ViewBag.authors" class="form-control">
+                                    <option value="">Select Author</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CoverImageUrl">Cover ImageUrl</label>
+                                <input type="text" class="form-control" asp-for="CoverImageUrl">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CategoryForBlogId">Category</label>
+                                <select asp-for="CategoryForBlogId" asp-items="@ViewBag.categories" class="form-control">
+                                    <option value="">Select Category</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>
+                        </form>
+
+                    </div> <!-- end card-body-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

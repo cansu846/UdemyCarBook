@@ -1,0 +1,36 @@
+﻿@using UdemyCarBook.Dtos.CategoryDtos
+@model ResultCategoryDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4 class="card-title">Update Category</h4>
+                        <p class="card-subtitle mb-4">
+                            Please fill in all fields appropriately.
+                        </p>
+
+                        <form method="post" asp-area="Admin" asp-controller="Category" asp-action="UpdateCategory">
+                            <input type="hidden" asp-for="categoryForBlogId" />
+                            <div class="form-group">
+                                <label asp-for="name">Name</label>
+                                <input type="text" class="form-control" asp-for="name">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Update</button>
+                        </form>
+
+                    </div> <!-- end card-body-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

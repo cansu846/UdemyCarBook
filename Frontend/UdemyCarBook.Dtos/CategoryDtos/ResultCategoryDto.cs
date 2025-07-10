@@ -8,7 +8,8 @@ namespace UdemyCarBook.Dtos.CategoryDtos
 {
     public class ResultCategoryDto
     {
-        public int CategoryForBlogId { get; set; }
-        public string Name { get; set; }
+        public int categoryForBlogId { get; set; }
+        public string name { get; set; }
     }
+
 }
