@@ -1,0 +1,67 @@
+﻿@using UdemyCarBook.Dtos.CarDtos
+@model CreateCarDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4 class="card-title">Entry New Vehicle</h4>
+                        <p class="card-subtitle mb-4">
+                            Please fill in all fields appropriately.
+                        </p>
+
+                        <form method="post" asp-area="Admin" asp-controller="Car" asp-action="CreateCar">
+                            <div class="form-group">
+                                <label asp-for="brandName">Brand name</label>
+                                <select class="form-control" asp-for="@Model.brandId" asp-items="@ViewBag.brandValues">
+                                    <option value="">Select Brand</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="model">Model</label>
+                                <input type="text" class="form-control" asp-for="model">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="coverImage">Cover image</label>
+                                <input type="text" class="form-control" asp-for="coverImage">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="km">Km</label>
+                                <input type="text" class="form-control" asp-for="km">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="transmission">Vites type</label>
+                                <input type="text" class="form-control" asp-for="transmission">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="seat">Seat count</label>
+                                <input type="number" class="form-control" asp-for="seat">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="luggace">Luggage count</label>
+                                <input type="number" class="form-control" asp-for="luggace">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="fuel">Fuel</label>
+                                <input type="text" class="form-control" asp-for="fuel">
+                            </div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>
+                        </form>
+
+                    </div> <!-- end card-body-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

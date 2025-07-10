@@ -1,0 +1,68 @@
+﻿@using UdemyCarBook.Dtos.CarDtos
+@model List<ResultCarDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Araç Listesi</h4>
+                        <p class="card-subtitle mb-4">
+                            Araçlar üzerinde listeleme, ekleme, silme, güncelleme işlemlerini gerçekleştirebilirsiniz.
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Marka</th>
+                                        <th>Model</th>
+                                        <th>Km</th>
+                                        <th>Güncelle</th>
+                                        <th>Detaylar</th>
+                                        <th>Sil</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var item in Model)
+                                    {
+                                        count++;
+
+                                        <tr>
+                                            <th>@count</th>
+                                            <td>@item.brandName</td>
+                                            <td>@item.model</td>
+                                            <td>@item.km</td>
+                                            <td><a  asp-area="Admin" asp-controller="Car" asp-action="UpdateCar"  asp-route-id="@item.carId" class="btn btn-success">Güncelle</a></td>
+                                            <td><a href="" class="btn btn-primary">Detaya Git</a></td>
+                                            <td><a href="/Admin/Car/DeleteCar/@item.carId" class="btn btn-danger">Sil</a></td>
+
+                                        </tr>
+                                    }
+                                 
+                                    <tr>
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <!-- end card-body-->
+                </div>
+                <!-- end card -->
+
+            </div>
+            <!-- end col -->
+
+        </div>
+
+    </div>
+</div>
+

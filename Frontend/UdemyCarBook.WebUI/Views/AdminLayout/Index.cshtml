@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+@await Html.PartialAsync("~/Views/AdminLayout/AdminHeaderPartial.cshtml")
+
+<body>
+
+    @await Component.InvokeAsync("TopNavbarComponentPartial")
+
+    <div id="layout-wrapper">
+
+        @await Component.InvokeAsync("TopNavbarComponentPartial")
+
+        @await Component.InvokeAsync("LeftSidebarComponentPartial")
+
+        <div class="main-content">
+
+            @RenderBody()
+          
+            @await Component.InvokeAsync("AdminFooterComponentPartial")
+        </div>
+
+    </div>
+
+    <!-- Overlay-->
+    <div class="menu-overlay"></div>
+
+    @await Html.PartialAsync("~/Views/AdminLayout/AdminScriptPartial.cshtml")
+
+</body>
+
+</html>

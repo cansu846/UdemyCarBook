@@ -14,6 +14,7 @@
           "Swashbuckle.AspNetCore": "6.6.2",
           "UdemyCarBook.Application": "1.0.0",
           "UdemyCarBook.Domain": "1.0.0",
+          "UdemyCarBook.Dtos": "1.0.0",
           "UdemyCarBook.Persistence": "1.0.0"
         },
         "runtime": {
@@ -998,6 +999,14 @@
           }
         }
       },
+      "UdemyCarBook.Dtos/1.0.0": {
+        "runtime": {
+          "UdemyCarBook.Dtos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "UdemyCarBook.Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.17",
@@ -1614,6 +1623,11 @@
       "sha512": ""
     },
     "UdemyCarBook.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UdemyCarBook.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

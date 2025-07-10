@@ -154,3 +154,5 @@ C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\De
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\UdemyCarBook.WebApi.pdb
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\UdemyCarBook.WebApi.genruntimeconfig.cache
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\ref\UdemyCarBook.WebApi.dll
+C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\UdemyCarBook.Dtos.dll
+C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\UdemyCarBook.Dtos.pdb

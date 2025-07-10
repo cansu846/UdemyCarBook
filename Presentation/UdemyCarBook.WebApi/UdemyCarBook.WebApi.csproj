@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\UdemyCarBook.Application\UdemyCarBook.Application.csproj" />
+    <ProjectReference Include="..\..\Frontend\UdemyCarBook.Dtos\UdemyCarBook.Dtos.csproj" />
     <ProjectReference Include="..\..\UdemyCarBook.Domain\UdemyCarBook.Domain.csproj" />
     <ProjectReference Include="..\..\UdemyCarBook.Persistance\UdemyCarBook.Persistence.csproj" />
   </ItemGroup>

@@ -29,4 +29,8 @@
     <ProjectReference Include="..\UdemyCarBook.Dtos\UdemyCarBook.Dtos.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
 </Project>

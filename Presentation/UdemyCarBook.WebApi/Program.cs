@@ -10,10 +10,12 @@ using UdemyCarBook.Application.Interfaces.BlogInterfaces;
 using UdemyCarBook.Application.Interfaces.CarInterfaces;
 using UdemyCarBook.Application.Interfaces.TagCloudInterfaces;
 using UdemyCarBook.Application.Services;
+using UdemyCarBook.Domain.Entities;
 using UdemyCarBook.Persistence.Context;
 using UdemyCarBook.Persistence.Repositories;
 using UdemyCarBook.Persistence.Repositories.BlogRepositories;
 using UdemyCarBook.Persistence.Repositories.CarRepositories;
+using UdemyCarBook.Persistence.Repositories.CommentRepositories;
 using UdemyCarBook.Persistence.Repositories.TagCloudRepository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -52,6 +54,7 @@ builder.Services.AddScoped<ICarRepository,CarRepository>();
 builder.Services.AddScoped<IBlogRepository,BlogRepository>();
 builder.Services.AddScoped<ICarPricingRepository,CarPricingRepository>();
 builder.Services.AddScoped<ITagCloudRepository,TagCloudRepository>();
+builder.Services.AddScoped<IRepository<Comment>,CommentRepository>();
 
 
 builder.Services.AddScoped<CreateCategoryForBlogCommandHandler>();

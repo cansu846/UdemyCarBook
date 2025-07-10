@@ -564,6 +564,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CommentController",
+    "Method": "GetAllComment",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CommentController",
+    "Method": "DeleteComment",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CommentController",
+    "Method": "CreateComment",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCommentDto",
+        "Type": "UdemyCarBook.Dtos.CommentDtos.CreateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CommentController",
+    "Method": "UpdateComment",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCommentDto",
+        "Type": "UdemyCarBook.Dtos.CommentDtos.UpdateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdemyContactBook.WebApi.Controllers.ContactController",
     "Method": "GetAllContact",
     "RelativePath": "api/Contact",
