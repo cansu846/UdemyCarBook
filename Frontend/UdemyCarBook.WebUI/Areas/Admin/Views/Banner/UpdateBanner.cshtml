@@ -1,0 +1,48 @@
+﻿@using UdemyCarBook.Dtos.BannerDtos
+@model ResultBannerDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h4 class="card-title">Update Banner</h4>
+                        <p class="card-subtitle mb-4">
+                            Please fill in all fields appropriately.
+                        </p>
+
+                        <form method="post" asp-area="Admin" asp-controller="Banner" asp-action="UpdateBanner">
+                            <input type="hidden" asp-for="BannerId" />
+                            <div class="form-group">
+                                <label asp-for="Title">Banner Title</label>
+                                <input type="text" class="form-control" asp-for="Title">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description">Description</label>
+                                <input type="text" class="form-control" asp-for="Description">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="VideoDescription">Video Description</label>
+                                <input type="text" class="form-control" asp-for="VideoDescription">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="VideoUrl">Video Url</label>
+                                <input type="text" class="form-control" asp-for="VideoUrl">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Update</button>
+                        </form>
+
+                    </div> <!-- end card-body-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
