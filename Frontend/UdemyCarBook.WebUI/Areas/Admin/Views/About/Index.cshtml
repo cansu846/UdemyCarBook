@@ -1,5 +1,5 @@
-﻿@using UdemyCarBook.Dtos.BannerDtos
-@model List<ResultBannerDto>
+﻿@using UdemyCarBook.Dtos.AboutDtos
+@model List<ResultAboutDto>
 
 @{
     ViewData["Title"] = "Index";
@@ -12,7 +12,7 @@
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Car Banners</h4>
+                        <h4 class="card-title">Car Abouts</h4>
                         <p class="card-subtitle mb-4">
 
                         </p>
@@ -23,9 +23,7 @@
                                         <th>#</th>
                                         <th>Title</th>
                                         <th>Description</th>
-                                        <th>Video Description</th>
-                                        <th>Video Url</th>
-                                        <th>Visit Youtube</th>
+                                        <th>Image Url</th>
                                         <th>Update</th>
                                         <th>Delete</th>
                                     </tr>
@@ -35,15 +33,13 @@
                                     {
                                         count++;
 
-                                        <tr class="col-4">
+                                        <tr>
                                             <th>@count</th>
-                                            <td>@item.Title</td>
-                                            <td>@item.Description</td>
-                                            <td>@item.VideoDescription</td>
-                                            <td>@item.VideoUrl</td>
-                                            <td><a href="" class="btn btn-info">Watch Video</a></td>
-                                            <td><a asp-area="Admin" asp-controller="Banner" asp-action="UpdateBanner" asp-route-id="@item.BannerId" class="btn btn-success">Update</a></td>
-                                            <td><a href="/Admin/Banner/DeleteBanner/@item.BannerId" class="btn btn-danger">Delete</a></td>
+                                            <td>@item.title</td>
+                                            <td>@item.description</td>
+                                            <td>@item.imageUrl</td>
+                                            <td><a asp-area="Admin" asp-controller="About" asp-action="UpdateAbout" asp-route-id="@item.aboutId" class="btn btn-success">Update</a></td>
+                                            <td><a href="/Admin/About/DeleteAbout/@item.aboutId" class="btn btn-danger">Delete</a></td>
                                         </tr>
                                     }
 
@@ -51,7 +47,7 @@
 
                                 </tbody>
                             </table>
-                            <a asp-area="Admin" asp-controller="Banner" asp-action="CreateBanner" class="btn btn-primary">Create Banner</a>
+                            <a asp-area="Admin" asp-controller="About" asp-action="CreateAbout" class="btn btn-primary">Create About</a>
                         </div>
 
                     </div>
