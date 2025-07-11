@@ -8,6 +8,7 @@ using UdemyCarBook.Application.Feature.CQRS.Handlers.ContactHandlers;
 using UdemyCarBook.Application.Interfaces;
 using UdemyCarBook.Application.Interfaces.BlogInterfaces;
 using UdemyCarBook.Application.Interfaces.CarInterfaces;
+using UdemyCarBook.Application.Interfaces.CommentInterfaces;
 using UdemyCarBook.Application.Interfaces.TagCloudInterfaces;
 using UdemyCarBook.Application.Services;
 using UdemyCarBook.Domain.Entities;
@@ -21,6 +22,9 @@ using UdemyCarBook.Persistence.Repositories.TagCloudRepository;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<IRepository<Comment>, CommentRepository>();
 
 
 builder.Services.AddScoped<CarBookContext>();

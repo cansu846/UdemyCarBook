@@ -944,6 +944,28 @@
         }
       }
     },
+    "/api/Comment/GetCommentListByBlogId": {
+      "get": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Contact": {
       "get": {
         "tags": [

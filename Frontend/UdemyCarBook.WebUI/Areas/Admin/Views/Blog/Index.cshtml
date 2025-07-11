@@ -6,9 +6,11 @@
     Layout = "~/Views/AdminLayout/Index.cshtml";
     var count = 0;
 }
+
 <div class="page-content">
     <div class="container-fluid">
         <div class="row">
+          
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-body">
@@ -24,33 +26,34 @@
                                         <th>Title</th>
                                         <th>Auhtor</th>
                                         <th>Created Date</th>
-                                        <th>Update</th>
-                                        <th>Delete</th>
+                                       @*  <th>Update</th>
+                                        <th>Delete</th> *@
                                         <th>Visit Blog</th>
-                                        <th>Comments</th>
+                                        <th>See Comments</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
                                         count++;
-
                                         <tr>
                                             <th>@count</th>
                                             <th>@item.Title</th>
                                             <td>@item.AuthorName</td>
                                             <td>@item.CreatedDate</td>
-                                            <td><a asp-area="Admin" asp-controller="Blog" asp-action="UpdateBlog" asp-route-id="@item.BlogId" class="btn btn-success">Update</a></td>
-                                            <td><a href="/Admin/Blog/DeleteBlog/@item.BlogId" class="btn btn-danger">Delete</a></td>
-                                            <td><a href="#" class="btn btn-primary">Visit Blog</a></td>
-                                            <td><a href="#" class="btn btn-info">Comments</a></td>
+@*                                             <td><a asp-area="Admin" asp-controller="Blog" asp-action="UpdateBlog" asp-route-id="@item.BlogId" class="btn btn-success">Update</a></td>
+ *@@*                                             <td><a href="/Admin/Blog/DeleteBlog/@item.BlogId" class="btn btn-danger">Delete</a></td>
+ *@                                            <td><a href="/Blog/BlogDetail/@item.BlogId" class="btn btn-primary">Visit Blog</a></td>
+                                            <td><a asp-controller="Comment" asp-action="CommentListByBlogId" asp-route-blogId="@item.BlogId" class="btn btn-info">Comments</a></td>
                                         </tr>
                                     }
 
                                 </tbody>
                             </table>
+                         
                             <a asp-area="Admin" asp-controller="Blog" asp-action="CreateBlog" class="btn btn-primary">Create Blog</a>
                         </div>
+
 
                     </div>
                     <!-- end card-body-->

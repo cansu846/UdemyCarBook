@@ -9,5 +9,6 @@ namespace UdemyCarBook.Application.Interfaces.CommentInterfaces
 {
     public interface ICommentRepository:IRepository<Comment>
     {
+        List<Comment> GetCommentListByBlogId(int blogId);
     }
 }
