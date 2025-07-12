@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Formats.Asn1;
@@ -6,6 +7,7 @@ using UdemyCarBook.Application.Feature.CQRS.Commands.CarCommands;
 using UdemyCarBook.Application.Feature.CQRS.Handlers.CarHandler;
 using UdemyCarBook.Application.Feature.CQRS.Handlers.CarHandlers;
 using UdemyCarBook.Application.Feature.CQRS.Queries.CarQueries;
+using UdemyCarBook.Application.Feature.MediatR.Queries.StatisticsQueries;
 
 namespace UdemyCarBook.WebApi.Controllers
 {
@@ -19,13 +21,14 @@ namespace UdemyCarBook.WebApi.Controllers
         private readonly GetCarByIdQueryHandler _getCarByIdQueryHandler;
         private readonly GetCarQueryHandler _getCarQueryHandler;
         private readonly GetCarWithBrandQueryHandler _getCarWithBrandQueryHandler;
-
+        private readonly IMediator _mediator;
         public CarController(CreateCarCommandHandler createCarCommandHandler, 
             UpdateCarCommandHandler updateCarCommandHandler, 
             RemoveCarCommandHandler removeCarCommandHandler, 
             GetCarByIdQueryHandler getCarByIdQueryHandler, 
             GetCarQueryHandler getCarQueryHandler,
-            GetCarWithBrandQueryHandler getCarWithBrandQueryHandler)
+            GetCarWithBrandQueryHandler getCarWithBrandQueryHandler,
+            IMediator mediator)
         {
             _createCarCommandHandler = createCarCommandHandler;
             _updateCarCommandHandler = updateCarCommandHandler;
@@ -33,6 +36,7 @@ namespace UdemyCarBook.WebApi.Controllers
             _getCarByIdQueryHandler = getCarByIdQueryHandler;
             _getCarQueryHandler = getCarQueryHandler;
             _getCarWithBrandQueryHandler = getCarWithBrandQueryHandler; 
+            _mediator = mediator;
         }
 
         //[HttpGet]
@@ -75,6 +79,13 @@ namespace UdemyCarBook.WebApi.Controllers
         {
             var values =  _getCarWithBrandQueryHandler.Handle();
             return Ok(values);  
+        }
+
+        [HttpGet("GetCarCount")]
+        public async Task<IActionResult> GetCarCount()
+        {
+            var values = await _mediator.Send(new GetCarCountQuery());
+            return Ok(values);
         }
     }
 }
