@@ -15,5 +15,9 @@
     @await Component.InvokeAsync("_FooterLayoutComponent")
 
     @await Component.InvokeAsync("_ScriptLayoutComponent")
+
+    @RenderSection("Scripts", required: false)
+
 </body>
+
 </html>

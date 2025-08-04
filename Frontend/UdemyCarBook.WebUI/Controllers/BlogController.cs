@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Text;
+using UdemyCarBook.Dto.ReservationDtos;
 using UdemyCarBook.Dtos.BlogDtos;
+using UdemyCarBook.Dtos.CommentDtos;
 
 namespace UdemyCarBook.WebUI.Controllers
 {
@@ -34,6 +37,22 @@ namespace UdemyCarBook.WebUI.Controllers
             ViewBag.v1 = "Blog";
             ViewBag.v2 = "Blog Detail";
             ViewBag.blogId = id;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> BlogDetailMainLeaveCommentComponentPartial(CreateCommentDto createCommentDto )
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createCommentDto);
+            var stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var resultMessage = await client.PostAsync("https://localhost:7277/api/Comment\r\n", stringContent);
+
+            if (resultMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("BlogDetail","Blog",new {id=createCommentDto.BlogId});
+            }
+
             return View();
         }
     }

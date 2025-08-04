@@ -12,6 +12,7 @@ C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\De
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\MediatR.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -139,6 +140,7 @@ C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\De
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\UdemyCarBook.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\UdemyCarBook.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\UdemyCarBook.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\UdemyCarBook.WebApi.sourcelink.json
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\scopedcss\bundle\UdemyCarBook.WebApi.styles.css
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Cansu\source\repos\UdemyCarBook\Presentation\UdemyCarBook.WebApi\obj\Debug\net8.0\staticwebassets.development.json

@@ -18,11 +18,11 @@ namespace UdemyCarBook.WebUI.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7277/api/CarPricing");
+            var responseMessage = await client.GetAsync("https://localhost:7277/api/CarPricing/GetCarPricingWithTimePeriod\r\n");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var data = JsonConvert.DeserializeObject<List<ResultCarPricingWithCarDto>>(jsonData); 
+                var data = JsonConvert.DeserializeObject<List<ResultCarPricingWithTimePeriodDto>>(jsonData); 
                 return View(data);  
             }
             return View();

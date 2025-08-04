@@ -3237,6 +3237,14 @@
       "PackagePath": "staticwebassets\\carbook-master\\services.html"
     },
     {
+      "Id": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\videos\\RentACar.mp4",
+      "PackagePath": "staticwebassets\\carbook-master\\videos\\RentACar.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\chart.js",
+      "PackagePath": "staticwebassets\\chart.js"
+    },
+    {
       "Id": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -3475,6 +3483,14 @@
     {
       "Id": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UdemyCarBook.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

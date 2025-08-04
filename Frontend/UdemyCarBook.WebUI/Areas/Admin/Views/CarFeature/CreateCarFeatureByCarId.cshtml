@@ -1,0 +1,51 @@
+﻿@using UdemyCarBook.Dtos.CarFeaturesDtos
+@model List<CreateCarFeatureByCarIdDto>
+@{
+    ViewData["Title"] = "CreateCarFeatureByCarId";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Assign Feature to Car</h4>
+
+                        <p class="card-subtitle mb-4">
+                            You can perform updates on the tools features.
+                        </p>
+
+
+                        <form method="post">
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                <div>
+                                    <input type="hidden" asp-for="@Model[i].FeatureId" />
+                                    <input type="hidden" asp-for="@Model[i].FeatureName" />
+                                    <input type="hidden" asp-for="@Model[i].CarId" />
+                                    <input type="hidden" name="[@(i)].Available" value="false" />
+                                    <input type="checkbox" name="[@(i)].Available" value="true" @(Model[i].Available ? "checked" : "") />
+
+                                    <label asp-for="@Model[i].Available">@Model[i].FeatureName</label>
+                                </div>
+                            }
+                            <br />
+                            <button class="btn btn-success">Assign Feature</button>
+                        </form>
+
+                    </div>
+                    <!-- end card-body-->
+                </div>
+                <!-- end card -->
+
+            </div>
+            <!-- end col -->
+
+        </div>
+
+    </div>
+</div>
+
+

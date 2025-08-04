@@ -33,7 +33,7 @@ namespace UdemyCarBook.WebUI.Controllers
             var responseMessage = await client.PostAsync("https://localhost:7277/api/Contact", content);
             if (responseMessage.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index","About");
+                return RedirectToAction("Index","Default");
             }
             return View();  
         }

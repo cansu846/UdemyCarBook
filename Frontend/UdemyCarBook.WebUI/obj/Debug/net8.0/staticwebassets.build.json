@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7fSwFY+v62cCa381s98R63eOc/JCMuNfG9S8grlBk2E=",
+  "Hash": "XT6OoWoaTA+vAQ3X31IqOHkGpIX6ea+Va6x3YPU2Sf8=",
   "Source": "UdemyCarBook.WebUI",
   "BasePath": "_content/UdemyCarBook.WebUI",
   "Mode": "Default",
@@ -12610,8 +12610,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "obnpm8qqey",
-      "Integrity": "rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=",
+      "Fingerprint": "y9m9d0vq4l",
+      "Integrity": "+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\vertical\\pages-register.html"
@@ -17027,6 +17027,48 @@
       "OriginalItemSpec": "wwwroot\\carbook-master\\services.html"
     },
     {
+      "Identity": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\videos\\RentACar.mp4",
+      "SourceId": "UdemyCarBook.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\",
+      "BasePath": "_content/UdemyCarBook.WebUI",
+      "RelativePath": "carbook-master/videos/RentACar#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "olv00602sf",
+      "Integrity": "BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\carbook-master\\videos\\RentACar.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\chart.js",
+      "SourceId": "UdemyCarBook.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\",
+      "BasePath": "_content/UdemyCarBook.WebUI",
+      "RelativePath": "chart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6q0a62eh3a",
+      "Integrity": "0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chart.js"
+    },
+    {
       "Identity": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\css\\site.css",
       "SourceId": "UdemyCarBook.WebUI",
       "SourceType": "Discovered",
@@ -18285,6 +18327,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "UdemyCarBook.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\",
+      "BasePath": "_content/UdemyCarBook.WebUI",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g5oy2x87yv",
+      "Integrity": "xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "SourceId": "UdemyCarBook.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\",
+      "BasePath": "_content/UdemyCarBook.WebUI",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "533l9jid3v",
+      "Integrity": "H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
     }
   ],
   "Endpoints": [
@@ -67253,7 +67337,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6957"
+          "Value": "6922"
         },
         {
           "Name": "Content-Type",
@@ -67261,11 +67345,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=\""
+          "Value": "\"+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Jul 2025 06:05:13 GMT"
+          "Value": "Sat, 02 Aug 2025 18:30:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -67275,12 +67359,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU="
+          "Value": "sha256-+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM="
         }
       ]
     },
     {
-      "Route": "Admin/vertical/pages-register.obnpm8qqey.html",
+      "Route": "Admin/vertical/pages-register.y9m9d0vq4l.html",
       "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\Admin\\vertical\\pages-register.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -67290,7 +67374,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6957"
+          "Value": "6922"
         },
         {
           "Name": "Content-Type",
@@ -67298,11 +67382,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=\""
+          "Value": "\"+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Jul 2025 06:05:13 GMT"
+          "Value": "Sat, 02 Aug 2025 18:30:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -67312,7 +67396,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "obnpm8qqey"
+          "Value": "y9m9d0vq4l"
         },
         {
           "Name": "label",
@@ -67320,7 +67404,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU="
+          "Value": "sha256-+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM="
         }
       ]
     },
@@ -84545,6 +84629,170 @@
       ]
     },
     {
+      "Route": "carbook-master/videos/RentACar.mp4",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\videos\\RentACar.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2717579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc="
+        }
+      ]
+    },
+    {
+      "Route": "carbook-master/videos/RentACar.olv00602sf.mp4",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\carbook-master\\videos\\RentACar.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2717579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "olv00602sf"
+        },
+        {
+          "Name": "label",
+          "Value": "carbook-master/videos/RentACar.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc="
+        }
+      ]
+    },
+    {
+      "Route": "chart.6q0a62eh3a.js",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6q0a62eh3a"
+        },
+        {
+          "Name": "label",
+          "Value": "chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+        }
+      ]
+    },
+    {
+      "Route": "chart.js",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -89465,6 +89713,170 @@
       ]
     },
     {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.g5oy2x87yv.js",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g5oy2x87yv"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/microsoft/signalr/dist/browser/signalr.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.min.533l9jid3v.js",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "533l9jid3v"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/microsoft/signalr/dist/browser/signalr.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co="
+        }
+      ]
+    },
+    {
       "Route": "UdemyCarBook.WebUI.bundle.scp.css",
       "AssetFile": "C:\\Users\\Cansu\\source\\repos\\UdemyCarBook\\Frontend\\UdemyCarBook.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UdemyCarBook.WebUI.bundle.scp.css",
       "Selectors": [],
@@ -89487,7 +89899,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 06:28:59 GMT"
+          "Value": "Mon, 04 Aug 2025 16:05:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89524,7 +89936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 06:28:59 GMT"
+          "Value": "Mon, 04 Aug 2025 16:05:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89569,7 +89981,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 06:28:59 GMT"
+          "Value": "Mon, 04 Aug 2025 16:05:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89614,7 +90026,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 06:28:59 GMT"
+          "Value": "Mon, 04 Aug 2025 16:05:28 GMT"
         },
         {
           "Name": "Cache-Control",

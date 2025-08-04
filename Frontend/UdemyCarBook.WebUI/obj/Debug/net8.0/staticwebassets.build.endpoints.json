@@ -48971,7 +48971,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6957"
+          "Value": "6922"
         },
         {
           "Name": "Content-Type",
@@ -48979,22 +48979,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=\""
+          "Value": "\"+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Jul 2025 06:05:13 GMT"
+          "Value": "Sat, 02 Aug 2025 18:30:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU="
+          "Value": "sha256-+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM="
         }
       ]
     },
     {
-      "Route": "Admin/vertical/pages-register.obnpm8qqey.html",
+      "Route": "Admin/vertical/pages-register.y9m9d0vq4l.html",
       "AssetFile": "Admin/vertical/pages-register.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -49008,7 +49008,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6957"
+          "Value": "6922"
         },
         {
           "Name": "Content-Type",
@@ -49016,21 +49016,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=\""
+          "Value": "\"+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Jul 2025 06:05:13 GMT"
+          "Value": "Sat, 02 Aug 2025 18:30:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "obnpm8qqey"
+          "Value": "y9m9d0vq4l"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU="
+          "Value": "sha256-+olO+EsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM="
         },
         {
           "Name": "label",
@@ -50623,7 +50623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 06:28:59 GMT"
+          "Value": "Mon, 04 Aug 2025 16:05:28 GMT"
         }
       ],
       "EndpointProperties": [
@@ -50668,7 +50668,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 06:28:59 GMT"
+          "Value": "Mon, 04 Aug 2025 16:05:28 GMT"
         }
       ],
       "EndpointProperties": [
@@ -66341,6 +66341,170 @@
       ]
     },
     {
+      "Route": "carbook-master/videos/RentACar.mp4",
+      "AssetFile": "carbook-master/videos/RentACar.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2717579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:22:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc="
+        }
+      ]
+    },
+    {
+      "Route": "carbook-master/videos/RentACar.olv00602sf.mp4",
+      "AssetFile": "carbook-master/videos/RentACar.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2717579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 Aug 2025 16:22:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "olv00602sf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh+Q58eHXRc="
+        },
+        {
+          "Name": "label",
+          "Value": "carbook-master/videos/RentACar.mp4"
+        }
+      ]
+    },
+    {
+      "Route": "chart.6q0a62eh3a.js",
+      "AssetFile": "chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6q0a62eh3a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+        },
+        {
+          "Name": "label",
+          "Value": "chart.js"
+        }
+      ]
+    },
+    {
+      "Route": "chart.js",
+      "AssetFile": "chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
@@ -71257,6 +71421,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.g5oy2x87yv.js",
+      "AssetFile": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g5oy2x87yv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/microsoft/signalr/dist/browser/signalr.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "AssetFile": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFSlhn25XTMtNGSJwgbsbG+6A/rZT0QnMX2faEe7T1E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.min.533l9jid3v.js",
+      "AssetFile": "lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "533l9jid3v"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/microsoft/signalr/dist/browser/signalr.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "AssetFile": "lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 06:05:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY+gn6z5n/Co="
         }
       ]
     }

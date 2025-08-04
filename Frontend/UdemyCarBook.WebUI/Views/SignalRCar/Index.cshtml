@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = "~/Views/_UILayout/Index.cshtml";
+}
+
+<div class="content">
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+
+    <div class="row">
+        <div class="col-md-8 offset-2">
+            <div class="alert alert-info">Bağlantının Durumu: <strong id="constatus"></strong></div>
+        </div>
+        <div class="col-md-8 offset-2">
+            <div class="alert alert-danger">Araba Sayısı: <strong id="carcount"></strong></div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script type="text/javascript">
+            $(document).ready(() => {
+                var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:7277/CarHub").build();
+
+                $("#constatus").text(connection.state); // => "Disconnected"
+
+                connection.start().then(() => {
+                    $("#constatus").text(connection.state); // => "Connected"
+
+                    if(connection.state === "Connected"){
+
+                          setInterval(() => {
+                        connection.invoke("SendCarCount");
+                    }, 1000);
+                    }
+                  
+                }).catch((err) => {
+                    console.log("Bağlantı hatası: ", err);
+                });
+
+                connection.on("ReceiverCarCount", (value) => {
+                    console.log(value);
+                    $("#carcount").text(value);
+                });
+            });
+        </script>
+    }
+</div>
+

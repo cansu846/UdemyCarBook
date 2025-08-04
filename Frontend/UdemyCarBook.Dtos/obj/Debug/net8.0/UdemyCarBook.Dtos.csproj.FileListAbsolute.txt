@@ -1,10 +1,15 @@
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\bin\Debug\net8.0\UdemyCarBook.Dtos.deps.json
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\bin\Debug\net8.0\UdemyCarBook.Dtos.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\bin\Debug\net8.0\UdemyCarBook.Dtos.pdb
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\bin\Debug\net8.0\UdemyCarBook.Domain.dll
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\bin\Debug\net8.0\UdemyCarBook.Domain.pdb
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.csproj.AssemblyReference.cache
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.AssemblyInfoInputs.cache
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.AssemblyInfo.cs
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.sourcelink.json
+C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCar.A44A70DB.Up2Date
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\refint\UdemyCarBook.Dtos.dll
 C:\Users\Cansu\source\repos\UdemyCarBook\Frontend\UdemyCarBook.Dtos\obj\Debug\net8.0\UdemyCarBook.Dtos.pdb

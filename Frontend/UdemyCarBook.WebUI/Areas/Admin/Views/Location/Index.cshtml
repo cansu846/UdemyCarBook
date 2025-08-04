@@ -1,0 +1,61 @@
+﻿@using UdemyCarBook.Dtos.LocationDtos
+@model List<ResultLocationDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Car Locations</h4>
+                        <p class="card-subtitle mb-4">
+
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Update</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+
+                                        <tr>
+                                            <th>@count</th>
+                                            <td>@item.LocationName</td>
+                                            <td><a asp-area="Admin" asp-controller="Location" asp-action="UpdateLocation" asp-route-id="@item.LocationId" class="btn btn-success">Update</a></td>
+                                            <td><a href="/Admin/Location/DeleteLocation/@item.LocationId" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                    }
+
+                                    <tr>
+
+                                </tbody>
+                            </table>
+                            <a asp-area="Admin" asp-controller="Location" asp-action="CreateLocation" class="btn btn-primary">Create Location</a>
+                        </div>
+
+                    </div>
+                    <!-- end card-body-->
+                </div>
+                <!-- end card -->
+
+            </div>
+            <!-- end col -->
+
+        </div>
+
+    </div>
+</div>
+

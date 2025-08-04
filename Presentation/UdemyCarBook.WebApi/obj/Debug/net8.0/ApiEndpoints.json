@@ -490,9 +490,83 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CarFeatureController",
+    "Method": "GetCarFeatureByCarId",
+    "RelativePath": "api/CarFeature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCarFeatureCommand",
+        "Type": "UdemyCarBook.Application.Feature.MediatR.Commands.CarFeatureCommands.CreateCarFeatureCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CarFeatureController",
+    "Method": "GetCarFeatureByCarId",
+    "RelativePath": "api/CarFeature/GetCarFeatureByCarId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CarFeatureController",
+    "Method": "UpdateCarFeatureAvailableToFalse",
+    "RelativePath": "api/CarFeature/UpdateCarFeatureAvailableToFalse",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carFeatureId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CarFeatureController",
+    "Method": "UpdateCarFeatureAvailableToTrue",
+    "RelativePath": "api/CarFeature/UpdateCarFeatureAvailableToTrue",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carFeatureId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdemyCarBook.WebApi.Controllers.CarPricingController",
     "Method": "GetCarPricingWithCar",
     "RelativePath": "api/CarPricing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.CarPricingController",
+    "Method": "GetCarPricingWithTimePeriod",
+    "RelativePath": "api/CarPricing/GetCarPricingWithTimePeriod",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -944,6 +1018,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getCheckAppUserQuery",
+        "Type": "UdemyCarBook.Application.Feature.MediatR.Queries.AppUserQueries.GetCheckAppUserQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdemyCarBook.WebApi.Controllers.PricingController",
     "Method": "GetAllPricing",
     "RelativePath": "api/Pricing",
@@ -1012,6 +1102,59 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.RegisterController",
+    "Method": "UserRegister",
+    "RelativePath": "api/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAppUserCommand",
+        "Type": "UdemyCarBook.Application.Feature.MediatR.Commands.AppUserCommands.CreateAppUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.RentACarController",
+    "Method": "GetAllRentACar",
+    "RelativePath": "api/RentACar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "available",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdemyCarBook.WebApi.Controllers.ReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createReservationCommand",
+        "Type": "UdemyCarBook.Application.Feature.MediatR.Commands.ReservationCommands.CreateReservationCommand",
         "IsRequired": true
       }
     ],

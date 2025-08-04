@@ -7167,14 +7167,14 @@
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/Admin/vertical/pages-register.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\vertical\pages-register.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6957"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BolO\u002BEsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6922"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022\u002BolO\u002BEsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 02 Aug 2025 18:30:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/Admin/vertical/pages-register.obnpm8qqey.html">
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/Admin/vertical/pages-register.y9m9d0vq4l.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\vertical\pages-register.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"obnpm8qqey"},{"Name":"integrity","Value":"sha256-rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/Admin/vertical/pages-register.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6957"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022rKfUth0YyveY8Wm5oPqRZN7uPw5dnEOdcFVlySR7jEU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y9m9d0vq4l"},{"Name":"integrity","Value":"sha256-\u002BolO\u002BEsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/Admin/vertical/pages-register.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6922"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022\u002BolO\u002BEsILtfggJyKrFUKSJZ2NjnvXysQzYiE6R1mPFM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 02 Aug 2025 18:30:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/Admin/vertical/pages-starter.akynsb6pi5.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\vertical\pages-starter.html'))</AssetFile>
@@ -9696,6 +9696,30 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oygc69a428"},{"Name":"integrity","Value":"sha256-IPUbLgZm9WCZSJi6yEYRlINJv46NF4VtS/OSsrIE/mQ="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/carbook-master/services.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10422"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022IPUbLgZm9WCZSJi6yEYRlINJv46NF4VtS/OSsrIE/mQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:28:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/carbook-master/videos/RentACar.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\videos\RentACar.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh\u002BQ58eHXRc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2717579"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh\u002BQ58eHXRc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 04 Aug 2025 16:22:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/carbook-master/videos/RentACar.olv00602sf.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\carbook-master\videos\RentACar.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"olv00602sf"},{"Name":"integrity","Value":"sha256-BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh\u002BQ58eHXRc="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/carbook-master/videos/RentACar.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2717579"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022BAhL7hQrqi2OdozjbxUrdSfVgwPH7CJkmh\u002BQ58eHXRc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 04 Aug 2025 16:22:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/chart.6q0a62eh3a.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\chart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6q0a62eh3a"},{"Name":"integrity","Value":"sha256-0q\u002BJdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/chart.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"205399"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220q\u002BJdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/chart.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\chart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0q\u002BJdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"205399"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00220q\u002BJdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -10416,17 +10440,41 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 13:32:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/lib/microsoft/signalr/dist/browser/signalr.g5oy2x87yv.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g5oy2x87yv"},{"Name":"integrity","Value":"sha256-xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/lib/microsoft/signalr/dist/browser/signalr.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"135778"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/lib/microsoft/signalr/dist/browser/signalr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"135778"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.533l9jid3v.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"533l9jid3v"},{"Name":"integrity","Value":"sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42303"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"42303"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Jul 2025 06:05:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/UdemyCarBook.WebUI.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UdemyCarBook.WebUI.o4uzhlnpb2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Jul 2025 06:28:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 04 Aug 2025 16:05:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UdemyCarBook.WebUI/UdemyCarBook.WebUI.o4uzhlnpb2.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UdemyCarBook.WebUI.o4uzhlnpb2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o4uzhlnpb2"},{"Name":"integrity","Value":"sha256-uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0="},{"Name":"label","Value":"_content/UdemyCarBook.WebUI/UdemyCarBook.WebUI.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Jul 2025 06:28:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uKfRwUiI3Tn3SpbbNkERMifUWic6lLZFcZHi\u002BM631L0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 04 Aug 2025 16:05:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

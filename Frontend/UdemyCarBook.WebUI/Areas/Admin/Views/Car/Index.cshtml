@@ -41,7 +41,7 @@
                                             <td>@item.model</td>
                                             <td>@item.km</td>
                                             <td><a  asp-area="Admin" asp-controller="Car" asp-action="UpdateCar"  asp-route-id="@item.carId" class="btn btn-success">Güncelle</a></td>
-                                            <td><a href="" class="btn btn-primary">Detaya Git</a></td>
+                                            <td><a href="/Admin/CarFeature/Index?carId=@item.carId" class="btn btn-primary">Detaya Git</a></td>
                                             <td><a href="/Admin/Car/DeleteCar/@item.carId" class="btn btn-danger">Sil</a></td>
 
                                         </tr>

@@ -27,5 +27,13 @@ namespace UdemyCarBook.WebUI.Controllers
             }
             return View();
         }
+
+        [HttpGet]
+        public IActionResult CarDetail(int carId) {
+            ViewBag.v1 = "Car Details";
+            ViewBag.v2 = "Car Details";
+            ViewBag.carId = carId;
+            return View();
+        }
     }
 }

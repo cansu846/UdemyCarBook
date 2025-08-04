@@ -1,4 +1,5 @@
-﻿@using UdemyCarBook.Dtos.BlogDtos
+﻿@using UdemyCarBook.Dto.BlogDtos
+@using UdemyCarBook.Dtos.BlogDtos
 @model CreateBlogDto
 
 @{
@@ -20,22 +21,22 @@
 
                         <form method="post" asp-area="Admin" asp-controller="Blog" asp-action="CreateBlog">
                             <div class="form-group">
-                                <label asp-for="Title">Title</label>
-                                <input type="text" class="form-control" asp-for="Title">
+                                <label asp-for="title">Title</label>
+                                <input type="text" class="form-control" asp-for="title">
                             </div>
                             <div class="form-group">
                                 <label asp-for="Description">Description</label>
                                 <input type="text" class="form-control" asp-for="Description">
                             </div>
                             <div class="form-group">
-                                <label asp-for="AuthorId">Author Id</label>
-                                <select asp-for="AuthorId" asp-items="@ViewBag.authors" class="form-control">
+                                <label asp-for="authorID">Author Id</label>
+                                <select asp-for="authorID" asp-items="@ViewBag.authors" class="form-control">
                                     <option value="">Select Author</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label asp-for="CoverImageUrl">Cover ImageUrl</label>
-                                <input type="text" class="form-control" asp-for="CoverImageUrl">
+                                <label asp-for="coverImageUrl">Cover ImageUrl</label>
+                                <input type="text" class="form-control" asp-for="coverImageUrl">
                             </div>
                             <div class="form-group">
                                 <label asp-for="CategoryForBlogId">Category</label>

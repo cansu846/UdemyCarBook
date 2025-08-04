@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcVXBkYXRlQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/AdminDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Author/CreateAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aG9yXENyZWF0ZUF1dGhvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,6 +92,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcVXBkYXRlQnJhbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/CarFeature/CreateCarFeatureByCarId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyRmVhdHVyZVxDcmVhdGVDYXJGZWF0dXJlQnlDYXJJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/CarFeature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyRmVhdHVyZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Car/CreateCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyXENyZWF0ZUNhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -132,6 +144,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxVcGRhdGVGZWF0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Location/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9jYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Pricing/CreatePricing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJpY2luZ1xDcmVhdGVQcmljaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -144,8 +160,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJpY2luZ1xVcGRhdGVQcmljaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Statistics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGlzdGljc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/Testimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
@@ -176,6 +200,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/CarPricing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUHJpY2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Car/CarDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXENhckRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Car/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -194,6 +226,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Login/LoginUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Register/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/RentACarList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudEFDYXJMaXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Reservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Service/Index.cshtml]
@@ -276,6 +324,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGVmdFNpZGViYXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/RentACarFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVudEFDYXJGaWx0ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/ServiceComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZUNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -290,6 +342,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/TopNavbarComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVG9wTmF2YmFyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_AdminDashboardBlogListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkQmxvZ0xpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_AdminDashboardCarPricingListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkQ2FyUHJpY2luZ0xpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_AdminDashboardChart1ComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkQ2hhcnQxQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_AdminDashboardChart2ComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkQ2hhcnQyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_AdminDashboardChart3ComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkQ2hhcnQzQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_AdminDashboardStatisticsComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkU3RhdGlzdGljc0NvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_CarDetailMainContentComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhckRldGFpbE1haW5Db250ZW50Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/Components/_DefaultFeatureLayoutComponent/Default.cshtml]
@@ -322,6 +402,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/SignalRCar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUkNhclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cansu/source/repos/UdemyCarBook/Frontend/UdemyCarBook.WebUI/Views/_UILayout/Index.cshtml]

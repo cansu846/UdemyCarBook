@@ -806,6 +806,8 @@ wwwroot\carbook-master\scss\bootstrap\utilities\_visibility.scss
 wwwroot\carbook-master\scss\bootstrap\vendor\_rfs.scss
 wwwroot\carbook-master\scss\style.scss
 wwwroot\carbook-master\services.html
+wwwroot\carbook-master\videos\RentACar.mp4
+wwwroot\chart.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -866,3 +868,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\microsoft\signalr\dist\browser\signalr.js
+wwwroot\lib\microsoft\signalr\dist\browser\signalr.min.js

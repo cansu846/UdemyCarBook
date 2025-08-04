@@ -9,10 +9,10 @@
    
 
     <div class="pt-5 mt-5">
-        @await Component.InvokeAsync("BlogDetailMainCommentComponentPartial")
+        @await Component.InvokeAsync("BlogDetailMainCommentComponentPartial", new { blogId = ViewBag.blogId })
 
         <!-- END comment-list -->
-        @await Component.InvokeAsync("BlogDetailMainLeaveCommentComponentPartial")
+        @await Component.InvokeAsync("BlogDetailMainLeaveCommentComponentPartial", new { blogId = ViewBag.blogId })
 
     </div>
 

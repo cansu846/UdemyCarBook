@@ -10,5 +10,7 @@ namespace UdemyCarBook.Domain.Entities
     {
         public int LocationId { get; set; }
         public string LocationName { get; set; }
+        public List<Reservation> PickUpReservation { get; set; }
+        public List<Reservation> DropOffReservation { get; set; }
     }
 }

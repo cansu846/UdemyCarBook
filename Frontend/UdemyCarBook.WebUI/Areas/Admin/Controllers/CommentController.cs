@@ -19,6 +19,20 @@ namespace UdemyCommentBook.WebUI.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var client = _httpClientFactory.CreateClient();
+            var result = await client.GetAsync($"https://localhost:7277/api/Comment/Index");
+            if (result.IsSuccessStatusCode)
+            {
+                var jsonData = await result.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject(jsonData);
+                return View(values);
+            }
+            return View();
+        }
+
+        [HttpGet]
         public async Task<IActionResult> CommentListByBlogId(int blogId)
         {
             var client = _httpClientFactory.CreateClient();

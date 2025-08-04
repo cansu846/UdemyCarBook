@@ -1,0 +1,63 @@
+﻿@using UdemyCarBook.Dtos.ServiceDtos
+@model List<ResultServiceDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var count = 0;
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Car Services</h4>
+                        <p class="card-subtitle mb-4">
+
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Title</th>
+                                        <th>Description</th>
+                                        <th>Update</th>
+                                        <th>Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+
+                                        <tr>
+                                            <th>@count</th>
+                                            <td>@item.title</td>
+                                            <td>@item.description</td>
+                                            <td><a asp-area="Admin" asp-controller="Service" asp-action="UpdateService" asp-route-id="@item.serviceId" class="btn btn-success">Update</a></td>
+                                            <td><a href="/Admin/Service/DeleteService/@item.serviceId" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                    }
+
+                                    <tr>
+
+                                </tbody>
+                            </table>
+                            <a asp-area="Admin" asp-controller="Service" asp-action="CreateService" class="btn btn-primary">Create Service</a>
+                        </div>
+
+                    </div>
+                    <!-- end card-body-->
+                </div>
+                <!-- end card -->
+
+            </div>
+            <!-- end col -->
+
+        </div>
+
+    </div>
+</div>
+
